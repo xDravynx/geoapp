@@ -9,6 +9,7 @@ A modular REST API built with Node.js, Express, and MongoDB to fetch and store g
    npm i dotenv express mongoose express-rate-limit
 
 2. **Environment setup:**
+create a .env file to setup your ports
 PORT=3000
 MONGODB_URI=mongodb://127.0.0.1:27017/geoDataDB
 
