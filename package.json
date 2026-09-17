@@ -2,10 +2,10 @@
   "name": "geo-app",
   "version": "1.0.0",
   "description": "Geospatial data fetcher and storage using MongoDB",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node index.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "keywords": [],
   "author": "",
