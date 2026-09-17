@@ -1,5 +1,4 @@
 const GeoData = require('../MODELS/GeoData');
-import { async } from '../node_modules/mongodb/src/client-side-encryption/providers/azure';
 const { fetchExternalGeoData } = require('../SERVICES/geoApiService');
 
 /**
@@ -52,7 +51,7 @@ const createGeoData = async (req, res) => {
             });
         }
 
-        const newRecord = GeoData({
+        const newRecord = new GeoData({
             locationName,
             latitude,
             longitude,

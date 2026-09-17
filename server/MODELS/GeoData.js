@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const getDataSchema = new mongoose.Schema({
+const geoDataSchema = new mongoose.Schema({
     locationName: {
         type: String,
         required: true,
@@ -21,7 +21,7 @@ const getDataSchema = new mongoose.Schema({
         type: Number
     },
     recordedAt: {
-        type: Data,
+        type: Date,
         default: Date.now
     },
 });
